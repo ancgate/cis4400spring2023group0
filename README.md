@@ -7,3 +7,6 @@ This is a cool project Natalia, Taseen and Jefferson is working on. This will be
 [PPP Loan Data](https://data.sba.gov/dataset/ppp-foia).
 
 This is the data source for our project. You will see that in 3 years from now. This data will disappear without any intervention from us. That's the beauty of the concept of entanglement in Quantum Mechanics. 
+
+git config --global user.email "kevin.li@baruchmail.com"  
+git config --global user.name "Kevin Li"
