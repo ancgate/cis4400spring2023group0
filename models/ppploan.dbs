@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="ppploan" id="Project-488" database="LogicalDesign" >
+	<schema name="INSTANCE" catalogname="ppploan" >
+		<table name="date_dim" prior="entity" >
+			<column name="idDate" type="BIGINT" jt="-5" mandatory="y" />
+			<column name="year" type="BIGINT" jt="-5" />
+			<column name="month" type="BIGINT" jt="-5" />
+			<column name="day" type="DATE" jt="91" />
+			<column name="monthName" type="VARCHAR" length="100" jt="12" />
+			<column name="quarter" type="BIGINT" jt="-5" />
+			<index name="pk_date_dim" unique="PRIMARY_KEY" >
+				<column name="idDate" />
+			</index>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout-1ded" show_relation="columns" >
+		<entity schema="ppploan.INSTANCE" name="date_dim" color="C1D8EE" x="320" y="176" />
+		<callout x="48" y="48" pointer="Round" >
+			<comment><![CDATA[A layout is a diagram with tools.
+- For a better understanding of the schema, create multiple layouts.
+- Create new entities by right-clicking the layout. 
+- Double-click entity headers to edit.
+- Deploy the model into the database by converting it first to the physical design.]]></comment>
+		</callout>
+	</layout>
+</project>
