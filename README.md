@@ -8,5 +8,22 @@ This is a cool project Natalia, Taseen and Jefferson is working on. This will be
 
 This is the data source for our project. You will see that in 3 years from now. This data will disappear without any intervention from us. That's the beauty of the concept of entanglement in Quantum Mechanics. 
 
-git config --global user.email "kevin.li@baruchmail.com"  
-git config --global user.name "Kevin Li"
+## Installation 
+
+Install Git 
+
+run the following commands 
+
+git config --global user.email "firstname.lastname@baruchmail.com"  
+git config --global user.name "Firstname Lastname"
+
+Install Visual Studio Code
+
+Install DbSchema 
+
+Install Python on your computer 3.10+
+
+Install Pip or Conda or Anaconda 
+
+Install jupyter notebook.
+
