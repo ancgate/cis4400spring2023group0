@@ -26,4 +26,6 @@ SELECT
   TO_CHAR(date_value, 'Month') AS monthName,
   EXTRACT(isodow FROM date_value) AS dayofweek,
   FLOOR((EXTRACT(day FROM date_value) - 1) / 7) + 1 AS WeekofMonth,
+ TO_CHAR(date_value, 'Day') AS dayName,
+  EXTRACT(week FROM date_value) AS WeekofYear
 FROM date_cte
